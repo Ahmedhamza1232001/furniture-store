@@ -2,12 +2,13 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable, throwError } from 'rxjs';
 import { catchError } from 'rxjs/operators';
+import { environment } from '../../environments/environment';
 
 @Injectable({
   providedIn: 'root',
 })
 export class ProductService {
-  private readonly apiUrl = 'your-api-url'; // Replace with your API base URL
+  private readonly apiUrl = environment.apiUrl; // Replace with your API base URL
 
   constructor(private http: HttpClient) {}
 

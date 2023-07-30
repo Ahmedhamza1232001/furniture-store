@@ -10,6 +10,13 @@ import { ShoppingCartComponent } from './modules/shopping-cart/shopping-cart.com
 import { NavigationComponent } from './core/header/navigation/navigation.component';
 import { HeaderComponent } from './core/header/header.component';
 import { FooterComponent } from './core/footer/footer.component';
+import { HomeComponent } from './modules/home/home.component';
+import { LoggingComponent } from './logging/logging.component';
+import { TrackingComponent } from './tracking/tracking.component';
+import { ProductCheckoutComponent } from './product-checkout/product-checkout.component';
+import { ConfirmationComponent } from './confirmation/confirmation.component';
+import { BlogComponent } from './blog/blog.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +28,13 @@ import { FooterComponent } from './core/footer/footer.component';
     NavigationComponent,
     HeaderComponent,
     FooterComponent,
+    HomeComponent,
+    LoggingComponent,
+    TrackingComponent,
+    ProductCheckoutComponent,
+    ConfirmationComponent,
+    BlogComponent,
+    ContactComponent,
   ],
   imports: [BrowserModule, HttpClientModule, AppRoutingModule],
   providers: [],
